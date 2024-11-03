@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+header a {
+    text-decoration: none;
+    color: gray;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 154, 128);
+    padding: 10px 20px;
+    color: white;
+}
+.span1 {
+    color: rgb(196, 196, 4);
+}
+.tempy {
+    font-size: 12px;
+}
+.seconddiv {
+    font-size: 12px;
+}
+.p2 {
+    margin-top: 7px;
+}
+.section2 img {
+    width: 100%;
+    height: 390px;
+}
+.thirddiv {
+    margin: 30px 40px;
+    text-align: center;
+    background-color: white;
+    margin: -3px -0px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.thirddiv h2 {
+    margin-bottom: 20px;
+    color: rgb(10, 154, 128);
+}
+.emailtemplate {
+    color: rgb(58, 57, 57);
+    font-weight: lighter;
+}
+.thirddiv p {
+    line-height: 2.0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.thirddiv button {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.section3 {
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.section3 img {
+    width: 280px;
+    height: 200px;
+}
+.section3 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.section3 h4 {
+    margin-bottom: 20px;
+}
+.section3 button {
+    background-color: rgb(10, 154, 128);
+    border: 1px solid rgb(10, 154, 128);
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.Section4 {
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.Section4 img {
+    width: 280px;
+    height: 200px;
+}
+.Section4 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.Section4 h4 {
+    margin-bottom: 20px;
+}
+.Section4 button {
+    background-color: rgb(10, 154, 128);
+    border: 1px solid rgb(10, 154, 128);
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+footer {
+    background-color: rgb(10, 154, 128);
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+footer a {
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .section2 img {
+        height: 300px;
+    }
+    .section3 {
+        flex-direction: column;
+    }
+    .Section4 {
+        flex-direction: column;
+    }
+}
